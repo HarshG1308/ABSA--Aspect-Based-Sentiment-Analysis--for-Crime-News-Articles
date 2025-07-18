@@ -24,7 +24,7 @@ This project scrapes recent crime-related news articles from The Times of India 
 1. **Clone this Repository:**
 
    ```bash
-   git clone https://github.com/<your-username>/news-absa-project.git
+   git clone https://github.com/HarshG1308/ABSA--Aspect-Based-Sentiment-Analysis--for-Crime-News-Articles
    cd news-absa-project
    ```
 
