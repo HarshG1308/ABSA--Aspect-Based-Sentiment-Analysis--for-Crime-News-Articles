@@ -65,7 +65,12 @@ This project scrapes recent crime-related news articles from The Times of India 
 
 ## Limitations and Improvements
 
-- The project only checks a limited set of example article URLs by default (not the entire websites).
+- Crime articles are detected by certain keywords in the title.
 - Article structure may change, potentially breaking some data extraction if the website layout is updated.
 - Sentiment analysis is contingent on the quality of the ABSA model.
-- Can be extended to a full crawler (currently only samples URLs) if required.
+- The ABSA model may misclassify some sentences.
+
+## How can we improve this project?
+
+- Using zero-shot transformer models for smarter crime news detection.
+- Can Upgrade NER with spaCy’s large or transformer models for more accurate entity extraction.
